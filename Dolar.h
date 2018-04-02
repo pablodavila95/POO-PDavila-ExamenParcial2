@@ -17,6 +17,22 @@ private:
 
 public:
 
+    Dolar& operator++ ();
+    Dolar& operator-- ();
+
+    Dolar  operator++ (int)
+    {
+        Dolar result(*this);
+        ++(*this);
+        return result;
+    }
+
+    Dolar  operator-- (int)
+    {
+        Dolar result(*this);
+        --(*this);
+        return result;
+    }
     explicit Dolar(double valorUSD);
     friend Dolar operator+(const Dolar &a, const Dolar &b);
     friend Dolar operator+(const Peso &a, const Dolar &b);
@@ -25,9 +41,6 @@ public:
     friend Dolar operator-(const Peso &a, const Dolar &b);
     friend Dolar operator-(const Dolar &a, const Peso &b);
 
-
-    friend Dolar operator++(const Dolar &a);
-    friend Dolar operator--(const Dolar &a);
 
     friend bool operator>(const Peso &a, const Dolar &b);
     friend bool operator<(const Peso &a, const Dolar &b);

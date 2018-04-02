@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Dolar.cpp
+iostream
+-
+Dolar.h
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Dolar.h
+
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Dolar.h
+Peso.h
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Peso.h
+
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Peso.cpp
+Peso.h
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Peso.h
+iostream
+-
+
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Peso.h
+string
+-
+Dolar.h
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Dolar.h
+
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/main.cpp
+iostream
+-
+Peso.h
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Peso.h
+Dolar.h
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Dolar.h
+
