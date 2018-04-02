@@ -1,0 +1,3 @@
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/cmake-build-debug/CMakeFiles/Fraccion.dir
+C:/Users/Pablo/CLionProjects/POv2/Fraccion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
