@@ -48,23 +48,23 @@ CMAKE_SOURCE_DIR = C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-Examen
 CMAKE_BINARY_DIR = C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2\cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/Fraccion.dir/depend.make
+include CMakeFiles/main.cpp.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/Fraccion.dir/progress.make
+include CMakeFiles/main.cpp.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/Fraccion.dir/flags.make
+include CMakeFiles/main.cpp.dir/flags.make
 
-CMakeFiles/Fraccion.dir/requires:
+CMakeFiles/main.cpp.dir/requires:
 
-.PHONY : CMakeFiles/Fraccion.dir/requires
+.PHONY : CMakeFiles/main.cpp.dir/requires
 
-CMakeFiles/Fraccion.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles\Fraccion.dir\cmake_clean.cmake
-.PHONY : CMakeFiles/Fraccion.dir/clean
+CMakeFiles/main.cpp.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles\main.cpp.dir\cmake_clean.cmake
+.PHONY : CMakeFiles/main.cpp.dir/clean
 
-CMakeFiles/Fraccion.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2 C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2 C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2\cmake-build-debug C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2\cmake-build-debug C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2\cmake-build-debug\CMakeFiles\Fraccion.dir\DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/Fraccion.dir/depend
+CMakeFiles/main.cpp.dir/depend:
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2 C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2 C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2\cmake-build-debug C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2\cmake-build-debug C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2\cmake-build-debug\CMakeFiles\main.cpp.dir\DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/main.cpp.dir/depend
 

@@ -47,10 +47,10 @@ RM = C:\Users\Pablo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.4548.31\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Pablo\CLionProjects\POv2\Fraccion
+CMAKE_SOURCE_DIR = C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Pablo\CLionProjects\POv2\Fraccion\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pablo\CLionProjects\POv2\Fraccion\cmake-build-debug\CMakeFiles C:\Users\Pablo\CLionProjects\POv2\Fraccion\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2\cmake-build-debug\CMakeFiles C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pablo\CLionProjects\POv2\Fraccion\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pablo\CLionProjects\POv2\Fraccion\POO-PDavila-ExamenParcial2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,44 +110,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Fraccion
+# Target rules for targets named POO-PDavila-ExamenParcial2
 
 # Build rule for target.
-Fraccion: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Fraccion
-.PHONY : Fraccion
+POO-PDavila-ExamenParcial2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 POO-PDavila-ExamenParcial2
+.PHONY : POO-PDavila-ExamenParcial2
 
 # fast build rule for target.
-Fraccion/fast:
-	$(MAKE) -f CMakeFiles\Fraccion.dir\build.make CMakeFiles/Fraccion.dir/build
-.PHONY : Fraccion/fast
+POO-PDavila-ExamenParcial2/fast:
+	$(MAKE) -f CMakeFiles\POO-PDavila-ExamenParcial2.dir\build.make CMakeFiles/POO-PDavila-ExamenParcial2.dir/build
+.PHONY : POO-PDavila-ExamenParcial2/fast
 
-Fraccion.obj: Fraccion.cpp.obj
+Dolar.obj: Dolar.cpp.obj
 
-.PHONY : Fraccion.obj
+.PHONY : Dolar.obj
 
 # target to build an object file
-Fraccion.cpp.obj:
-	$(MAKE) -f CMakeFiles\Fraccion.dir\build.make CMakeFiles/Fraccion.dir/Fraccion.cpp.obj
-.PHONY : Fraccion.cpp.obj
+Dolar.cpp.obj:
+	$(MAKE) -f CMakeFiles\POO-PDavila-ExamenParcial2.dir\build.make CMakeFiles/POO-PDavila-ExamenParcial2.dir/Dolar.cpp.obj
+.PHONY : Dolar.cpp.obj
 
-Fraccion.i: Fraccion.cpp.i
+Dolar.i: Dolar.cpp.i
 
-.PHONY : Fraccion.i
+.PHONY : Dolar.i
 
 # target to preprocess a source file
-Fraccion.cpp.i:
-	$(MAKE) -f CMakeFiles\Fraccion.dir\build.make CMakeFiles/Fraccion.dir/Fraccion.cpp.i
-.PHONY : Fraccion.cpp.i
+Dolar.cpp.i:
+	$(MAKE) -f CMakeFiles\POO-PDavila-ExamenParcial2.dir\build.make CMakeFiles/POO-PDavila-ExamenParcial2.dir/Dolar.cpp.i
+.PHONY : Dolar.cpp.i
 
-Fraccion.s: Fraccion.cpp.s
+Dolar.s: Dolar.cpp.s
 
-.PHONY : Fraccion.s
+.PHONY : Dolar.s
 
 # target to generate assembly for a file
-Fraccion.cpp.s:
-	$(MAKE) -f CMakeFiles\Fraccion.dir\build.make CMakeFiles/Fraccion.dir/Fraccion.cpp.s
-.PHONY : Fraccion.cpp.s
+Dolar.cpp.s:
+	$(MAKE) -f CMakeFiles\POO-PDavila-ExamenParcial2.dir\build.make CMakeFiles/POO-PDavila-ExamenParcial2.dir/Dolar.cpp.s
+.PHONY : Dolar.cpp.s
+
+Peso.obj: Peso.cpp.obj
+
+.PHONY : Peso.obj
+
+# target to build an object file
+Peso.cpp.obj:
+	$(MAKE) -f CMakeFiles\POO-PDavila-ExamenParcial2.dir\build.make CMakeFiles/POO-PDavila-ExamenParcial2.dir/Peso.cpp.obj
+.PHONY : Peso.cpp.obj
+
+Peso.i: Peso.cpp.i
+
+.PHONY : Peso.i
+
+# target to preprocess a source file
+Peso.cpp.i:
+	$(MAKE) -f CMakeFiles\POO-PDavila-ExamenParcial2.dir\build.make CMakeFiles/POO-PDavila-ExamenParcial2.dir/Peso.cpp.i
+.PHONY : Peso.cpp.i
+
+Peso.s: Peso.cpp.s
+
+.PHONY : Peso.s
+
+# target to generate assembly for a file
+Peso.cpp.s:
+	$(MAKE) -f CMakeFiles\POO-PDavila-ExamenParcial2.dir\build.make CMakeFiles/POO-PDavila-ExamenParcial2.dir/Peso.cpp.s
+.PHONY : Peso.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -155,7 +182,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Fraccion.dir\build.make CMakeFiles/Fraccion.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\POO-PDavila-ExamenParcial2.dir\build.make CMakeFiles/POO-PDavila-ExamenParcial2.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -164,7 +191,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\Fraccion.dir\build.make CMakeFiles/Fraccion.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\POO-PDavila-ExamenParcial2.dir\build.make CMakeFiles/POO-PDavila-ExamenParcial2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +200,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\Fraccion.dir\build.make CMakeFiles/Fraccion.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\POO-PDavila-ExamenParcial2.dir\build.make CMakeFiles/POO-PDavila-ExamenParcial2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -183,11 +210,14 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... Fraccion
+	@echo ... POO-PDavila-ExamenParcial2
 	@echo ... rebuild_cache
-	@echo ... Fraccion.obj
-	@echo ... Fraccion.i
-	@echo ... Fraccion.s
+	@echo ... Dolar.obj
+	@echo ... Dolar.i
+	@echo ... Dolar.s
+	@echo ... Peso.obj
+	@echo ... Peso.i
+	@echo ... Peso.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

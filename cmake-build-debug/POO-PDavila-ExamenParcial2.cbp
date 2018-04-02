@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="Fraccion"/>
+		<Option title="POO-PDavila-ExamenParcial2"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -27,8 +27,8 @@
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Fraccion">
-				<Option output="C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Fraccion.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="POO-PDavila-ExamenParcial2">
+				<Option output="C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/POO-PDavila-ExamenParcial2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -42,14 +42,14 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fraccion"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Makefile&quot;  VERBOSE=1 POO-PDavila-ExamenParcial2"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Fraccion/fast">
-				<Option output="C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Fraccion.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="POO-PDavila-ExamenParcial2/fast">
+				<Option output="C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/POO-PDavila-ExamenParcial2.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -63,7 +63,7 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fraccion/fast"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Makefile&quot;  VERBOSE=1 POO-PDavila-ExamenParcial2/fast"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -80,6 +80,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Dolar.cpp">
+			<Option target="POO-PDavila-ExamenParcial2"/>
+		</Unit>
+		<Unit filename="C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Dolar.h">
+			<Option target="POO-PDavila-ExamenParcial2"/>
+		</Unit>
+		<Unit filename="C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Peso.cpp">
+			<Option target="POO-PDavila-ExamenParcial2"/>
+		</Unit>
+		<Unit filename="C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/Peso.h">
+			<Option target="POO-PDavila-ExamenParcial2"/>
+		</Unit>
+		<Unit filename="C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/main.cpp">
+			<Option target="POO-PDavila-ExamenParcial2"/>
+		</Unit>
 		<Unit filename="C:/Users/Pablo/CLionProjects/POv2/Fraccion/POO-PDavila-ExamenParcial2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
