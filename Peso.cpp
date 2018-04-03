@@ -27,18 +27,20 @@ Peso operator-(const Peso &a, const Peso &b) {
     answer.toStringMXN(answer);
 }
 
-Peso operator++(const Peso &a) {
-    Peso answer(a.valorMXN+1.0);
-    answer.toStringMXN(answer);
-}
-
-Peso operator--(const Peso &a) {
-    Peso answer(a.valorMXN-1.0);
-    answer.toStringMXN(answer);
-}
-
 std::string Peso::toStringMXN(Peso &valor) {
     std::string total;
     total = std::to_string(valor.getValorMXN());
     std::cout<<"$" + total + " MXN"<< "\n";;
+}
+
+Peso &Peso::operator++() {
+    Peso answer(valorMXN+1.0);
+    answer.toStringMXN(answer);
+    return *this;
+}
+
+Peso &Peso::operator--() {
+    Peso answer(valorMXN-1.0);
+    answer.toStringMXN(answer);
+    return *this;
 }

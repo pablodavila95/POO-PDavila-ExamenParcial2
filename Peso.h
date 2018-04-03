@@ -16,10 +16,25 @@ private:
 public:
     explicit Peso(double valorMXN);
 
+    Peso& operator++ ();
+    Peso& operator-- ();
+
+    Peso  operator++ (int)
+    {
+        Peso result(*this);
+        ++(*this);
+        return result;
+    }
+
+    Peso  operator-- (int)
+    {
+        Peso result(*this);
+        --(*this);
+        return result;
+    }
+
     friend Peso operator+(const Peso &a, const Peso &b);
     friend Peso operator-(const Peso &a, const Peso &b);
-    friend Peso operator++(const Peso &a);
-    friend Peso operator--(const Peso &a);
 
     double getValorMXN() const;
     double getValorUSD() const;

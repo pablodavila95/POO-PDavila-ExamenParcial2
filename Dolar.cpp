@@ -34,20 +34,20 @@ Dolar operator+(const Dolar &a, const Dolar &b) {
 
 Dolar operator+(const Peso &a, const Dolar &b) {
     double pesoToUsd;
-    pesoToUsd = a.getValorMXN()*a.getValorUSD();
+    pesoToUsd = a.getValorMXN()/18.50;
     Dolar answer(pesoToUsd+b.valorUSD);
 
-    Peso answerPeso(answer.valorUSD*b.getValorMXN());
+    Peso answerPeso(answer.valorUSD*a.getValorUSD());
     answer.toStringUSD(answer);
     answerPeso.toStringMXN(answerPeso);
 }
 
 Dolar operator+(const Dolar &a, const Peso &b) {
     double pesoToUsd;
-    pesoToUsd = b.getValorMXN()*b.getValorUSD();
+    pesoToUsd = b.getValorMXN()/18.50;
     Dolar answer(a.valorUSD+pesoToUsd);
 
-    Peso answerPeso(answer.valorUSD*a.getValorMXN());
+    Peso answerPeso(answer.valorUSD*b.getValorUSD());
     answer.toStringUSD(answer);
     answerPeso.toStringMXN(answerPeso);
 }
@@ -63,18 +63,22 @@ Dolar operator-(const Dolar &a, const Dolar &b) {
 
 Dolar operator-(const Peso &a, const Dolar &b) {
     double pesoToUsd;
-    pesoToUsd = a.getValorMXN()*b.getValorMXN();
+    pesoToUsd = a.getValorMXN()/18.50;
     Dolar answer(pesoToUsd-b.valorUSD);
 
+    Peso answerPeso(answer.valorUSD*a.getValorUSD());
     answer.toStringUSD(answer);
+    answerPeso.toStringMXN(answerPeso);
 }
 
 Dolar operator-(const Dolar &a, const Peso &b) {
     double pesoToUsd;
-    pesoToUsd = b.getValorMXN()*a.getValorMXN();
+    pesoToUsd = b.getValorMXN()/18.50;
     Dolar answer(a.valorUSD-pesoToUsd);
 
+    Peso answerPeso(answer.valorUSD*b.getValorUSD());
     answer.toStringUSD(answer);
+    answerPeso.toStringMXN(answerPeso);
 }
 
 
@@ -82,7 +86,7 @@ Dolar operator-(const Dolar &a, const Peso &b) {
 bool operator>(const Peso &a, const Dolar &b) {
     double mx,us;
 
-    mx= a.getValorMXN()*a.getValorUSD();
+    mx= a.getValorMXN()/18.50;
     us= b.getValorUSD();
 
 
@@ -98,7 +102,7 @@ bool operator>(const Peso &a, const Dolar &b) {
 bool operator<(const Peso &a, const Dolar &b) {
     double mx,us;
 
-    mx= a.getValorMXN()*a.getValorUSD();
+    mx= a.getValorMXN()/18.50;
     us= b.getValorUSD();
     if (mx<us) {
         std::cout << "True" << "\n";
@@ -111,7 +115,7 @@ bool operator<(const Peso &a, const Dolar &b) {
 bool operator>=(const Peso &a, const Dolar &b) {
     double mx,us;
 
-    mx= a.getValorMXN()*a.getValorUSD();
+    mx= a.getValorMXN()/18.50;
     us= b.getValorUSD();
     if (mx>=us) {
         std::cout << "True" << "\n";
@@ -124,7 +128,7 @@ bool operator>=(const Peso &a, const Dolar &b) {
 bool operator<=(const Peso &a, const Dolar &b) {
     double mx,us;
 
-    mx= a.getValorMXN()*a.getValorUSD();
+    mx= a.getValorMXN()/18.50;
     us= b.getValorUSD();
     if (mx<=us) {
         std::cout << "True" << "\n";
@@ -137,7 +141,7 @@ bool operator<=(const Peso &a, const Dolar &b) {
 bool operator==(const Peso &a, const Dolar &b) {
     double mx,us;
 
-    mx= a.getValorMXN()*a.getValorUSD();
+    mx= a.getValorMXN()/18.50;
     us= b.getValorUSD();
 
     if (mx==us) {
@@ -151,7 +155,7 @@ bool operator==(const Peso &a, const Dolar &b) {
 bool operator!=(const Peso &a, const Dolar &b) {
     double mx,us;
 
-    mx= a.getValorMXN()*a.getValorUSD();
+    mx= a.getValorMXN()/18.50;
     us= b.getValorUSD();
     if (mx!=us) {
         std::cout << "True" << "\n";
@@ -165,7 +169,7 @@ bool operator!=(const Peso &a, const Dolar &b) {
 bool operator>(const Dolar &a, const Peso &b) {
     double mx,us;
 
-    mx= b.getValorMXN()*b.getValorUSD();
+    mx= b.getValorMXN()/18.5;
     us= a.getValorUSD();
     if (us>mx) {
         std::cout << "True" << "\n";
@@ -180,7 +184,7 @@ bool operator<(const Dolar &a, const Peso &b) {
     double mx,us;
 
 
-    mx= b.getValorMXN()*b.getValorUSD();
+    mx= b.getValorMXN()/18.5;
     us= a.getValorUSD();
     if (us<mx) {
         std::cout << "True" << "\n";
@@ -195,7 +199,7 @@ bool operator>=(const Dolar &a, const Peso &b) {
     double mx,us;
 
 
-    mx= b.getValorMXN()*b.getValorUSD();
+    mx= b.getValorMXN()/18.5;
     us= a.getValorUSD();
     if (us>=mx) {
         std::cout << "True" << "\n";
@@ -210,7 +214,7 @@ bool operator<=(const Dolar &a, const Peso &b) {
     double mx,us;
 
 
-    mx= b.getValorMXN()*b.getValorUSD();
+    mx= b.getValorMXN()/18.5;
     us= a.getValorUSD();
     if (us<=mx) {
         std::cout << "True" << "\n";
@@ -225,7 +229,7 @@ bool operator==(const Dolar &a, const Peso &b) {
     double mx,us;
 
 
-    mx= b.getValorMXN()*b.getValorUSD();
+    mx= b.getValorMXN()/18.5;
     us= a.getValorUSD();
     if (us==mx) {
         std::cout << "True" << "\n";
@@ -240,7 +244,7 @@ bool operator!=(const Dolar &a, const Peso &b) {
     double mx,us;
 
 
-    mx= b.getValorMXN()*b.getValorUSD();
+    mx= b.getValorMXN()/18.5;
     us= a.getValorUSD();
     if (us!=mx) {
         std::cout << "True" << "\n";
